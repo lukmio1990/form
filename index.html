@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
+  <body>
+    <nav>
+      <span class="logo">css cookbook</span>
 
-<body>
+      <ul class="navigation">
+        <li>about</li>
+        <li>pricing</li>
+        <li>contact</li>
+      </ul>
+    </nav>
 
-  <nav>
+    <div class="form-box">
+      <h1 class="form-box-title">Welcome to CSS cookbook</h1>
+      <p class="form-box-info">
+        feel free to download our ready to use components and speed up your
+        development process
+      </p>
 
-    <span class="logo">css cookbook</span>
+      <form>
+        <input placeholder="e-mail" type="text" name="email" id="email" />
+        <input placeholder="password" type="password" name="pass" id="pass" />
 
-    <ul class="navigation">
-      <li>about</li>
-      <li>pricing</li>
-      <li>contact</li>
-    </ul>
-  </nav>
+        <button class="form-btn">create account</button>
 
-  <div class="form-box">
-
-    <h1 class="form-box-title">Welcome to CSS cookbook</h1>
-    <p class="form-box-info">feel free to download our
-      ready to use components and speed
-      up your development process
-    </p>
-
-    <form>
-      <input placeholder="e-mail" type="text" name="email" id="email">
-      <input placeholder="password" type="password" name="pass" id="pass">
-
-      <button>create account</button>
-
-      <input type="checkbox" name="agree" id="agree">
-      <label for="agree">I agree to whatever you want me to agree</label>
-
-    </form>
-  </div>
-
-
-</body>
-
+        <div class="form-agree">
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">I agree to whatever you want me to agree</label>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

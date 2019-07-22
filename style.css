@@ -82,3 +82,37 @@ input[type="password"] {
 input::placeholder {
   font-family: "Fira Code", sans-serif;
 }
+
+.form-btn {
+  display: block;
+  margin-top: 65px;
+  font-size: 15px;
+  font-family: "Fira Code", sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-agree {
+  display: flex;
+  margin-top: 40px;
+}
+
+#agree {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+#agree:checked {
+  background-color: white;
+}
+
+label {
+  font-size: 10px;
+  margin-left: 10px;
+}
