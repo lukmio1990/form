@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", sans-serif;
+  background-color: #171717;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 50px;
+}
+
+span.logo {
+  font-size: 21px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* FORM */
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 459px;
+  height: 493px;
+  border: 2px solid white;
+  margin-top: 60px;
+}
+
+.form-box-title {
+  font-size: 21px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-box-info {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 60%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  margin-top: 15px;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+input::placeholder {
+  font-family: "Fira Code", sans-serif;
+}
